@@ -1,0 +1,22 @@
+.app-header {
+  background-color: pink;
+  display: block;
+  padding: 15px;
+}
+
+.header-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-header-block {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: 'Vast Shadow', cursive;
+  user-select: none;
+  font-size: 35px;
+}
