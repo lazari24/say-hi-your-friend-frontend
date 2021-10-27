@@ -1,7 +1,9 @@
 .app-header {
-  background-color: pink;
+  /*background-color: pink;*/
   display: block;
-  padding: 15px;
+  padding-top: 3vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 .header-root {
@@ -13,6 +15,16 @@
 .left-header-block {
   display: flex;
   align-items: center;
+}
+
+.right-header-block {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+.icon-container-right {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo-text {

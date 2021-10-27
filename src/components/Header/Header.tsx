@@ -1,6 +1,5 @@
 import './Header.css'
-import {MessageOutlined} from "@ant-design/icons";
-import {Button} from "antd";
+import {MessageOutlined, GithubOutlined, LinkedinOutlined} from "@ant-design/icons";
 
 export const Header = () => {
   return (
@@ -14,7 +13,8 @@ export const Header = () => {
           <span className="logo-text">SAY HI YOUR FRIEND!</span>
         </div>
         <div className="right-header-block">
-          <Button type={"default"}>Отправить</Button>
+          <div className="icon-container-right"><GithubOutlined/></div>
+          <div className="icon-container-right"><LinkedinOutlined /></div>
         </div>
       </div>
     </header>

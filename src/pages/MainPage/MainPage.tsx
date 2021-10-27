@@ -1,9 +1,12 @@
 import './MainPage.css'
+import {SendMessageForm} from "../../components/SendMessageForm/SendMessageForm";
 
 export const MainPage = () => {
   return (
     <div className="main-page">
-      <span>Text</span>
+      <div className="form-container">
+        <SendMessageForm/>
+      </div>
     </div>
   )
 }
