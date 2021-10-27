@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Switch} from "react-router-dom";
+import {Switch} from "react-router-dom";
 import {Routes} from "./Routes";
+import {Header} from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
+        <Header/>
             <Switch><Routes/></Switch>
-        </BrowserRouter>
     </div>
   );
 }
