@@ -2,3 +2,11 @@
   display: flex;
   justify-content: flex-start;
 }
+
+.ant-spin-dot-item {
+  background: #595959;
+}
+
+.ant-form-item-explain.ant-form-item-explain-error {
+  color: white;
+}
