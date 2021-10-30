@@ -4,6 +4,7 @@
 
 .App {
   text-align: center;
+  font-family: Roboto, serif;
   background: url("assets/chat_bg.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
