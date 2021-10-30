@@ -6,7 +6,10 @@ import {CopyOutlined} from "@ant-design/icons";
 export const UrlBox = observer(() => {
   return (
     <div className="url-input-container">
-      <Input style={{width: "340px"}} defaultValue={UrlStore.uri} addonAfter={<CopyOutlined onClick={() => message.success("Copied!")}/>}/>
+      <Input style={{width: "340px"}} defaultValue={UrlStore.uri} addonAfter={<CopyOutlined onClick={() => {
+        navigator.clipboard.writeText(UrlStore.uri);
+        message.success("Copied!");
+      }}/>}/>
     </div>
   );
 });
