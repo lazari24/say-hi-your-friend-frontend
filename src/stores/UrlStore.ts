@@ -9,7 +9,7 @@ class UrlStore {
   }
 
   generateUrlById(insertedId: string) {
-    this.uri = `${window.location.protocol}://${window.location.hostname}/${insertedId}`
+    this.uri = `${window.location.protocol}//${window.location.hostname}/${insertedId}`
     console.log(this.uri);
   }
 }

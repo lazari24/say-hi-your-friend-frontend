@@ -1,0 +1,9 @@
+.message-container {
+  display: flex;
+  justify-content: center;
+}
+
+.current-page {
+  display: flex;
+  justify-content: center;
+}

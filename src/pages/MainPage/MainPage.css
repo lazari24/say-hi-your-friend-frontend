@@ -2,9 +2,3 @@
   display: flex;
   justify-content: center;
 }
-
-.form-container {
-  position: absolute;
-  margin: auto;
-  top: 35vh;
-}

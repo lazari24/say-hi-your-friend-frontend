@@ -7,7 +7,7 @@ import {UrlBox} from "../../components/UrlBox/UrlBox";
 export const MainPage = observer(() => {
   return (
     <div className="main-page">
-      <div className="form-container">
+      <div className="container">
         {UrlStore.uri ? <UrlBox/> : <SendMessageForm/>}
       </div>
     </div>

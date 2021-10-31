@@ -12,3 +12,9 @@
   -o-background-size: cover;
   height: 100vh;
 }
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 35vh;
+}
